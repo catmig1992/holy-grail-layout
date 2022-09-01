@@ -41,3 +41,9 @@ header {
   background-color: var(--sage);
   flex-grow: 1;
 }
+
+@media (min-width: 600px) {
+  .container {
+    flex-direction: row;
+  }
+}
