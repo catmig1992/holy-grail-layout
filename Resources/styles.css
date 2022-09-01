@@ -24,3 +24,20 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+
+main {
+  min-height: 60vh;
+  flex-grow: 5;
+}
+
+aside,
+nav {
+  background-color: var(--dusty-emerald);
+  flex-grow: 2;
+}
+
+footer,
+header {
+  background-color: var(--sage);
+  flex-grow: 1;
+}
